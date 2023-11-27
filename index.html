@@ -7,7 +7,7 @@
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
-    <link href="#" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>The Planets</title>
 </head>
 
@@ -15,7 +15,7 @@
 <div class="container-fluid">
 <!-- nav bar -->
     <div class="row">
-        <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+        <nav class="navbar navbar-expand-md justify-content-start navbar-light bg-light col-12">
             <!-- Brand -->
             <a class="navbar-brand" href="index.html">Logo</a>
             <!-- Responsive Button for the smaller menu -->
@@ -23,27 +23,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav mx-auto">
                     <!-- Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item justify-content-center toTheLeft">
+                        <a class="nav-link dropdown-toggle justify-content-center" href="#" id="navbardrop" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Solar System
                         </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Mercury</a>
-                            <a class="dropdown-item" href="#">Venus</a>
-                            <a class="dropdown-item" href="#">Earth</a>
-                            <a class="dropdown-item" href="#">Mars</a>
-                            <a class="dropdown-item" href="#">Jupiter</a>
-                            <a class="dropdown-item" href="#">Saturn</a>
-                            <a class="dropdown-item" href="#">Uranus</a>
-                            <a class="dropdown-item" href="#">Neptune</a>
+                        <div class="dropdown-menu justify-content-center toTheLeft mx-auto">
+                            <a class="dropdown-item" href="planets/mercury.html">Mercury</a>
+                            <a class="dropdown-item" href="planets/venus.html">Venus</a>
+                            <a class="dropdown-item" href="planets/earth.html">Earth</a>
+                            <a class="dropdown-item" href="planets/mars.html">Mars</a>
+                            <a class="dropdown-item" href="planets/jupiter.html">Jupiter</a>
+                            <a class="dropdown-item" href="planets/saturn.html">Saturn</a>
+                            <a class="dropdown-item" href="planets/uranus.html">Uranus</a>
+                            <a class="dropdown-item" href="planets/neptune.html">Neptune</a>
                         </div>
                     </li>
 
                     <!-- Links -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">More Information</a>
+                    <li class="nav-item justify-content-center" >
+                        <a class="nav-link justify-content-center" href="#">More Information</a>
                     </li>
                 </ul>
             </div>
@@ -58,11 +58,11 @@
     </div>
 <!-- cards -->
     <!-- terra planets -->
-    <div class="row">
+    <div class="row mx-auto px-auto mt-3">
         <!-- mercury -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/mercury.html">
                 <img src="https://picsum.photos/200" alt="image of the planet mercury" class="card-img-top">
             </a>
             <div class="card-body">
@@ -73,7 +73,7 @@
         <!-- venus -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/venus.html">
                 <img src="https://picsum.photos/200" alt="image of the planet venus" class="card-img-top">
             </a>
             <div class="card-body">
@@ -84,7 +84,7 @@
         <!-- earth -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/earth.html">
                 <img src="https://picsum.photos/200" alt="image of the planet earth" class="card-img-top">
             </a>
             <div class="card-body">
@@ -95,7 +95,7 @@
         <!-- mars -->
         <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                <a href="#">
+                <a href="planets/mars.html">
                     <img src="https://picsum.photos/200" alt="image of the planet mars" class="card-img-top">
                 </a>
                 <div class="card-body">
@@ -106,11 +106,11 @@
     </div>
 
     <!-- gas giants -->
-    <div class="row">
+    <div class="row mx-auto my-3">
         <!-- jupiter -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/jupiter.html">
                 <img src="https://picsum.photos/200" alt="image of the planet jupiter" class="card-img-top">
             </a>
             <div class="card-body">
@@ -121,7 +121,7 @@
         <!-- saturn -->
         <div class="col-md-3">
             <div class="card" style="width: 18rem;">
-                <a href="#">
+                <a href="planets/saturn.html">
                     <img src="https://picsum.photos/200" alt="image of the planet saturn" class="card-img-top">
                 </a>
                 <div class="card-body">
@@ -132,7 +132,7 @@
         <!-- uranus -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/uranus.html">
                 <img src="https://picsum.photos/200" alt="image of the planet uranus" class="card-img-top">
             </a>
             <div class="card-body">
@@ -143,7 +143,7 @@
         <!-- neptune -->
         <div class="col-md-3">
         <div class="card" style="width: 18rem;">
-            <a href="#">
+            <a href="planets/neptune.html">
                 <img src="https://picsum.photos/200" alt="image of the planet neptune" class="card-img-top">
             </a>
             <div class="card-body">
@@ -154,10 +154,10 @@
     </div>
 
 <!-- footer -->
-    <footer class="footer page-footer font-small ">
+    <footer class="footer page-footer font-small mt-2">
         <div class="container">
-            <div class="row">
-                <span class="text-muted">&copy; Isabel Abreu, 2023 |  Terms Of Use  |  Privacy Statement</span>
+            <div class="row footer-style mx-auto mt-3">
+                <span class="text-muted mx-auto">&copy; Isabel Abreu, 2023 |  Terms Of Use  |  Privacy Statement</span>
             </div>
         </div>
     </footer>

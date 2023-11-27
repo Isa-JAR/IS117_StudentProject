@@ -1,0 +1,29 @@
+html,body {
+    width:100%;
+}
+
+/* navbar */
+.navbar-nav{
+    justify-content: center;
+}
+
+.navbar{
+    color: black;
+    border-bottom: solid 1px black;
+}
+.toTheLeft{
+    justify-content: center;
+}
+
+/* cards */
+.card-img-top{
+    border-radius: 50%;
+    width: 200px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    border-top: solid 1px black;
+    color: black;
+}
